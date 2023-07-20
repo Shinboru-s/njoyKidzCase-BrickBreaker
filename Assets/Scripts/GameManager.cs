@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void LevelComplete()
+    public void LevelComplete()
     {
         endGameUI.SetActive(true);
         scoreUI.GetComponent<TMPro.TextMeshProUGUI>().text = score.ToString();
@@ -73,4 +73,10 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    public void LoseGame()
+    {
+
+    }
+    
 }
