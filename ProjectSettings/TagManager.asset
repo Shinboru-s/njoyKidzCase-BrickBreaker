@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Breakable
+  - Unbreakable
+  - Bar
+  - Background
+  - Ball
   layers:
   - Default
   - TransparentFX
@@ -11,9 +16,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Block
+  - Ball
+  - Chick
   - 
   - 
   - 
@@ -41,12 +46,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Layer 1
+  - name: Background
     uniqueID: 2425651459
     locked: 0
-  - name: Layer 2
+  - name: Block
     uniqueID: 4250941897
     locked: 0
-  - name: Layer 3
+  - name: Bar
     uniqueID: 4189426099
+    locked: 0
+  - name: Ball
+    uniqueID: 3085384049
+    locked: 0
+  - name: BackgroundFront
+    uniqueID: 3526102971
     locked: 0
